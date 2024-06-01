@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-witdh, initial-scale=1.0"/>
+    <title>Peru Connect Chatbot</title>
+    <link 
+    rel="icon"
+    href = "https://codexceleste.com/chatbots/core/images/zaroc1.png"
+    type="image/x-icon"
+    />
+</head>
+<style>
+    df-messenger
+    {
+        --df-messenger-botmessage: #ae63ff; /* color de fondo de la burbuja para los mensajes */
+        --df-messenger-user-message: #ae63ff; /* color de fondo de la burbuja para los mensajes*/
+        --df-messenger-font-color: #ffffff; /* color de fuente para los mensajes*/
+        --df-messenger-send-icon: #ae63ff; /* color de icono de envio en la casilla de entrada*/
+        --df-messenger-button-titlebar-color: #ae63ff; /* color del boton flotante y la barra*/
+        --df-messenger-button-titlebar-font-color: #ffffff; /* el color de la fuente del titulo NOMBRE*/
+        --df-messenger-chat-background-color: #ffffff; /* el color del cuadro del chat*/
+        --df-messenger-input-box-color: #ffffff; /* el color de fondo de la casilla de entrada */
+        --df-messenger-input-font-color: #000000; /* el color de fuente para la casilla de entrada */
+        --df-messenger-input-placeholder-font-color: #1a1a1a; /* el color de fuente par ael texto*/
+        --df-messenger-minimized-chat-close-icon-color: #ffffff; /* el color del icono minimizado */
+    }
+</style>
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  chat-icon = "https://codexceleste.com/chatbots/core/images/zaroc1.png"
+  intent="WELCOME"
+  chat-title="Turismoweb"
+  agent-id="993bd46e-1e64-4a5f-bfbd-4d0212a9005a"
+  language-code="en"
+></df-messenger>
+</html>
